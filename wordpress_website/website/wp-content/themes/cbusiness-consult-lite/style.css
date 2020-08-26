@@ -1,0 +1,97 @@
+/*
+Theme Name: CBusiness Consult Lite
+Theme URI: https://www.themescave.com/themes/wordpress-theme-corporate-free-cbusiness-consult-lite/
+Author: Themescave
+Author URI: http://www.themescave.com/
+Description: CBusiness Consult Pro WordPress has used for most of all type of business including Business consultant, news, portfolio, blogs, etc. Its used for the multipurpose business like Marketing, Finance, Stock Market, IT infrastructure, Consultant, Manufacture plant, Services, Retailer, Wholesaler, Online business, Store, IT Firm, Cloth business, and many more business. please check our demo http://themescave.com/demo/cbusiness-consult-pro/. Documentation URL: https://www.themescave.com/documentation/cbusiness-consult-pro/ & Pro theme URL: https://www.themescave.com/themes/wordpress-theme-corporate-cbusiness-consult-pro/  & Support Url: https://www.themescave.com/forums/forum/cbusiness-consult-pro/;
+Version: 0.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cbusiness-consult-lite
+Tags: custom-menu,one-column,right-sidebar,theme-options,threaded-comments,translation-ready,blog,custom-background,custom-colors,custom-header,featured-images,full-width-template,two-columns,photography,portfolio,sticky-post
+
+CBusiness Consult Lite WordPress Theme, Copyright 2019 themescave(themescave.com)
+CBusiness Consult Lite is distributed under the terms of the GNU GPL
+*/
+/*------------------------------------------------------------------
+
+[Table of contents]
+
+1. Main Tags
+2. Accessibility
+
+-------------------------------------------------------------------*/
+/* Main Tags */
+*{ margin:0; padding:0; outline:none;}
+body{ margin:0; padding:0;line-height:20px; font-size:13px; color:#5c5c5c; font-family:'PT Sans', Helvetica, sans-serif;}
+ol,ul{ margin:0; padding:0;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ color:#484f5e; font-family:'raleway', sans-serif; margin:0 0 20px; padding:0; line-height:1.1; font-weight:400; }
+h1{ font-size:32px;}
+h2{ font-size:28px;}
+h3{ font-size:23px;}
+h4{ font-size:20px;}
+h5{ font-size:18px;}
+h6{ font-size:16px;}
+img{ border:none; margin:0; padding:0; height:auto}
+html,body {  font-size: 15px; }
+p{ margin:0; padding:0;}
+a{ text-decoration:none; color:#5c5c5c;}
+a:hover{ color:#333;}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+.sitenav ul li a:focus {    color: #97C7DD;border-bottom: 1px solid #97C7DD;}
+a[href]:focus{    background: #364558;    color:#ffffff;    }
+.headercommon li a.fa:focus{ color: #ffffff;background: #364558; padding:5px;  }
+#sidebar ul li a:focus{ color:#ffffff; background: #364558;}
+.header_top .logo a:focus{background: #f8f8f8;
+background:
+rgba(75%, 75%, 75%, .25);
+border-bottom-width: 3px;
+margin-bottom: -2px;}
+
+.comment-author-link a[href]:focus, #sidebar ul li.recentcomments a.url:focus{
+  background-color: #364558; color: #ffffff;padding: 5px !important;
+}
